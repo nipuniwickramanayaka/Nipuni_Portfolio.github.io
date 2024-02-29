@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nipuni - Personal Portfolio Website</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+   <!-- Header section -->
+   <div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="text-container">
+                <p>UI/UX Designer</p>
+                <h1>
+                    Hi, I'm <span>Nipuni</span> 
+                </h1>
+                <p>This is my official portfolio</p>
+            </div>
+            <img src="assets/images/nipu.jpg" class="photo" width="400" height="450">
+        </div>
+        <img src="assets/images/logo1.png" alt="logo image" class="logo" />
+    </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/nipuni.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a UX/UI Designer with a background in Psychology, which gives me a unique edge in empathizing with users and improving their experience
+                         through design. My research experience has refined my problem-solving skills and user insights. I'm constantly seeking new ways to learn and 
+                         grow through real-world experiences using new  thechnologies.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>Design</span><br>Designing diffrents arts</li>
+                            <li><span>Languages</span></li>
+                        </ul>
+
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title"></h2>
+        
+                        <div class="skills__container bd-grid">          
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-html5 skills__icon'></i>
+                                        <span class="skills__name">HTML5</span>
+                                    </div>
+                                    <div class="skills__bar skills__html">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">95%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-css3 skills__icon'></i>
+                                        <span class="skills__name">CSS3</span>
+                                    </div>
+                                    <div class="skills__bar skills__css">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-javascript skills__icon' ></i>
+                                        <span class="skills__name">JAVASCRIPT</span>
+                                    </div>
+                                    <div class="skills__bar skills__js">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">65%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxs-paint skills__icon'></i>
+                                        <span class="skills__name">UX/UI</span>
+                                    </div>
+                                    <div class="skills__bar skills__ux">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>              
+                                <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                            </div>
+                        </div>
+                    </section>
+        
+                   
+                    <!--experiences-->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Advanced Level</span><br>R/Kalawana National School</li>
+                            <li><span>Computer Course</span><br>Oslo Computer Collage</li>
+                            <li><span>Following Full Stack Development</span><br>University Of Moratuwa</li>
+                            <li><span>Scince 2022</span><br>Undergraduate Saegis Campus</li>
+                            <li><span>Bachelor's degree</span><br>BSCs(Hons)Computer Science</li>
+                            <li><span>2023-2024</span><br>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                 <!-- Services section -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Responsive web deevelopment</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating responsive UX/UI design using Figma,Adobe xe,Photoshop...</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Design</h2>
+                    <p>Creating Diffrent arts. 
+                        eg:- Digital art,Mandala arts,3d arts
+                        Using Photoshop,Illustrator,3D max,Flash
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="assets\images\online.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Online Education platform</h3>
+                        <p>Developed a online education platform for a higher education institute.It contents loging & signup pages,high security system,paying system</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets\images\tour4.jpeg" alt="work-2">
+                    <div class="layer">
+                        <h3>tourism web page</h3>
+                        <p>Developed a tourism web page provide a convenient platform for customers to research, plan, and book their trips. They can access information 
+                            about destinations, accommodations, and activities from the comfort of their own homes.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets\images\events1.jpg" alt="work-3">
+                    <div class="layer">
+                        <h3>Event Management System</h3>
+                        <p>Developed an Event Management System streamlines the planning,organization, and execution of events. It encompasses a range of features such
+                         as event registration, ticketing, venue selection, scheduling,attendee engagement, and post-event analysis.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nipuninawanjana066@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>071 3226969</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100068960877329&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nipuni_wickramanayaka?utm_source=qr&igsh=MWgzbXVqMTlzMnEydA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/nipuniwickramanayaka"><i class="fa-brands fa-git"></i></a>
+                        <a href="https://www.linkedin.com/in/nipuni-wickramanayaka-201159236/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets\nipucv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Contact number" placeholder="Your contact number " required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️Nipuni Wickramanayaka Made with <i class="fa-solid fa-heart"></i> by <a href="#">Nipuni</a></p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
